@@ -9,4 +9,21 @@
   display: table;
   clear: both;
 }
-/* /reset di pagina e utility class */ */
+/* /reset di pagina e utility class */
+.container{
+  width: 1200px;
+  background-color: black;
+  margin: 0 auto;
+}
+ header{
+  background-color: yellow;
+  height: 100px;
+}
+main{
+  background-color: green;
+  height: 800px;
+}
+footer{
+  height: 80px;
+  background-color: azure;
+}
