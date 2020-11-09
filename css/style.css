@@ -15,20 +15,21 @@
 /* /reset di pagina e utility class */
 .container{
   width: 1200px;
-  background-color: black;
   margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
 }
  header{
   background-color: yellow;
   height: 150px;
 }
  main{
-  background-color: green;
   margin: 20px 0px;
 }
 footer{
   height: 80px;
-  background-color: azure;
+  background-color: lightblue;
 }
 .boxlft{
   height: 350px;
@@ -57,3 +58,4 @@ footer{
   height: 250px;
   width: 100%;
 }
+/* final version uncheked */
