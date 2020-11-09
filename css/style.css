@@ -9,6 +9,9 @@
   display: table;
   clear: both;
 }
+.float-left{
+  float: left;
+}
 /* /reset di pagina e utility class */
 .container{
   width: 1200px;
@@ -19,11 +22,35 @@
   background-color: yellow;
   height: 100px;
 }
-main{
+ main{
   background-color: green;
-  height: 800px;
 }
 footer{
   height: 80px;
   background-color: azure;
+}
+.boxlft{
+  height: 600px;
+  width: 25%;
+  background-color: violet;
+}
+.box{
+  height: 800px;
+  width: 50%;
+  background-color: purple;
+}
+.boxrgt{
+  height: 800px;
+  width: 25%;
+  background-color: violet;
+}
+.boxrgt div:first-child{
+  background-color: blue;
+  height: 400px;
+  width: 100%;
+}
+.boxrgt div:last-child{
+  background-color: darkblue;
+  height: 400px;
+  width: 100%;
 }
